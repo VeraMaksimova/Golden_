@@ -1,0 +1,6 @@
+[Tue Jul 07 2020 14:54:41 GMT+0400 (Московское время (зима))] layer "Google+": Expected end of input but "+" found.
+[Tue Jul 07 2020 14:54:41 GMT+0400 (Московское время (зима))] layer "Google+": Expected end of input but "+" found.
+[Tue Jul 07 2020 14:54:41 GMT+0400 (Московское время (зима))] layer "Tuts+": Expected end of input but "+" found.
+[Wed Jul 08 2020 12:44:45 GMT+0400 (Московское время (зима))] layer "© Copyright 2014 FreebiesXpress.com": Unsupported extension: com
+[Tue Jul 07 2020 14:54:41 GMT+0400 (Московское время (зима))] layer "Google+": Expected end of input but "+" found.
+[Tue Jul 07 2020 14:54:41 GMT+0400 (Московское время (зима))] layer "Google+": Expected end of input but "+" found.

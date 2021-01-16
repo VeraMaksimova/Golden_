@@ -1,0 +1,400 @@
+@media (max-width: 1024px){
+    .navigation .nav_toggle{
+        display: inline-block;
+        margin-left: auto;
+    }
+
+
+    .navigation ul{
+        display: none;
+    }
+
+    #nav_toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .navigation > ul{
+        margin-left: 0;
+        position: fixed;
+        top:0;
+        left: 0;
+        background-color: #0e0d0d;
+        opacity: .9;
+        padding: 5%;
+        min-width: 200px;
+        max-width: 250px;
+        height: 100%;
+        
+    }
+
+
+    .navigation li:hover  ul{
+        display: flex;
+        position: static;
+        white-space: nowrap;
+    }
+
+
+    .navigation li > ul  ul{
+    position: static;
+    }
+
+
+ 
+    .promo{
+        justify-content: flex-end;
+    }
+
+
+    .services_2{
+     flex-wrap: wrap;
+    }
+
+
+    .services_2 > :first-child{
+        margin-bottom: 50px;
+    }
+
+
+    .services .services_2
+    .web_security{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .our_portfolio 
+    .ebony{
+    width: 50%;
+    }
+
+
+    .our_portfolio 
+    .smart{
+    width: 50%;
+    }
+
+
+    .our_portfolio 
+    .clever{
+    width: 50%;
+    }
+
+
+    .our_portfolio 
+    .vinyl{
+    width: 50%;
+    }
+
+
+    .our_portfolio 
+    .treehouse{
+    width: 50%;
+    }
+
+
+    .our_portfolio 
+    .burned{
+    width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    .about_us .auxiliary{
+        width: 0%;
+    }
+
+
+    .about_us .july{
+        width: 100%;
+        border: none;
+    }
+
+
+    .about_us .july  .img_july{
+        margin-right: 0px;
+    }
+
+
+    .about_us .january{
+        width: 100%;
+        border: none;
+    }
+    
+
+    .about_us .january  .img_january{
+        margin-left: 0px;
+    }
+
+
+    .about_us .december{
+        width: 100%;
+        border: none;
+    }
+
+
+    .about_us .december .img_december{
+        margin-right: 0px;
+    }
+
+
+    .about_us .february{
+        width: 100%;
+        border: none;
+    }
+
+
+    .about_us .february .img_february{
+        margin-left: 0px;
+    }
+
+
+    .our_team .command{
+        flex-wrap: wrap;
+    }
+
+
+    .our_team .command
+    .uco{
+        margin-top: 40px;
+    }
+
+
+    .our_team .sites
+    ul {
+    flex-wrap: wrap;
+    }
+
+
+    .our_team .sites
+    ul li {
+    width: 50%;
+    padding-top: 20px;
+    }
+
+
+    .contact{
+        height: 800px;
+    }
+
+
+    .contact .form{
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 450px;
+        grid-template-rows: 50px 50px 50px 190px;
+        grid-gap: 25px;
+    }
+
+
+    .contact .button_message{
+        margin-top: 40px;
+    }
+    
+    
+
+}
+
+@media (max-width: 425px){
+    .promo{
+        height: 450px;
+        justify-content: flex-end;
+    }
+    
+
+    .header .promo h1:first-child{
+        font-size: 30px;
+    }
+    
+    
+    .header .promo h3{
+        font-size: 50px;
+    }
+
+
+    .services .services_2
+    .resposive_web{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 50px;
+    }
+
+
+    .services .services_2
+    .e_commerse{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .our_portfolio 
+    .ebony{
+        width: 100%;
+    }
+
+
+    .our_portfolio 
+    .smart{
+        width: 100%;
+    }
+
+
+    .our_portfolio 
+    .clever{
+        width: 100%;
+    }
+
+
+    .our_portfolio 
+    .vinyl{
+        width: 100%;
+    }
+
+
+    .our_portfolio 
+    .treehouse{
+        width: 100%;
+    }
+
+
+    .our_portfolio 
+    .burned{
+        width: 100%;
+    }
+
+
+    .about_us .july  .img_july{
+        width: 100px;
+        height: 100px;
+    }
+ 
+ 
+    .about_us .january  .img_january{
+         width: 100px;
+         height: 100px;
+    }
+ 
+ 
+    .about_us .december .img_december{
+         width: 100px;
+         height: 100px;
+    }
+ 
+ 
+    .about_us .february .img_february{
+        width: 100px;
+        height: 100px;
+    }
+ 
+
+    .our_team .command
+    .rico{
+        margin-top: 40px;
+    }
+    
+
+    .contact .form{
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 380px;
+        grid-template-rows: 50px 50px 50px 190px;
+        grid-gap: 25px;
+    }
+    .footer_icons .footer_a
+    .helper{
+        width: 0%;
+    }
+
+
+    .footer_icons p{
+        width: 50%;
+    }
+
+
+    .footer_icons ul {
+        width:50%;
+      }
+
+
+}
+
+
+@media (max-width: 375px){
+    .our_team .sites
+    ul {
+    flex-wrap: wrap;
+    }
+
+
+    .our_team .sites
+    ul li {
+    width: 100%;
+    padding-top: 20px;
+    }
+
+
+    .contact .form{
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 340px;
+        grid-template-rows: 50px 50px 50px 190px;
+        grid-gap: 25px;
+    }
+
+    .footer_icons .footer_a{
+        display: flex;
+       flex-direction: column;
+    }
+
+    .footer_icons p{
+        width: 100%;
+    }
+
+    
+.footer_icons ul {
+  margin-top: 7px;
+    width: 100%;
+   
+  }
+}
+
+@media (max-width: 320px){
+    .services .services_2 
+    .e_commerse p{
+    white-space: normal;
+}
+
+.services .services_2 
+    .resposive_web p{
+    white-space: normal;
+}
+.services .services_2 
+    .web_security p{
+    white-space: normal;
+}
+.contact .form{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 50px 50px 50px 180px;
+    grid-gap: 25px;
+}
+.footer_icons .footer_a{
+    display: inline-block;
+}
+
+
+.footer_icons p{
+    width: 100%;
+   
+}
+
+
+.footer_icons ul {
+    width:100%;
+    padding-top: 20px;
+  }
+    
+}
